@@ -5,6 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
+    "clean": "rm -rv lib/",
+    "prepare": "npm run clean && npm run build",
     "test": "jest"
   },
   "author": "h1b9b",
