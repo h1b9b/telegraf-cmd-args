@@ -1,0 +1,34 @@
+{
+  "name": "telegraf-cmd-args",
+  "version": "1.0.0",
+  "description": "middleware to parse telegraf commands",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "h1b9b",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h1b9b/telegraf-cmd-args"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/yargs-parser": "^20.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.5.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "yargs-parser": "^20.2.7"
+  }
+}

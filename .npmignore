@@ -1,0 +1,6 @@
+# Config files
+jest.config.ts
+.eslintrc.yml
+
+# Test files
+**/__tests__/*
